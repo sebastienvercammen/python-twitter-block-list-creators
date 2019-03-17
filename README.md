@@ -1,8 +1,10 @@
 # Block Twitter List Creators
 
-People are finding themselves on thousands of hate- and abuse-promoting lists. In order to provide a first step against destructive behavior, this python script will block all the creators of these lists.
+People are finding themselves on thousands of hate- and abuse-promoting lists. In order to provide a first step against destructive behavior, this python script will block all the creators of these lists. Every blocked Twitter user gets logged to the terminal (together with the list's name).
 
-When you block a list creator, you are automatically removed from the list. (This is regular Twitter behavior.)
+When you block a list creator, you are automatically removed from the list. This is regular Twitter behavior.
+
+**Note:** This script currently doesn't evaluate the origin of the list in any way. It will indiscriminately block everyone. You can still manually unblock people you've had positive experiences with by finding their Twitter usernames in the terminal logs.
 
 ## Usage
 
