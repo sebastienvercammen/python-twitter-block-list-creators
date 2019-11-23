@@ -17,4 +17,3 @@ When you block a list creator, you are automatically removed from the list. This
 ## Notes
 
 * This is an extremely simple script, made in half an hour to [give a little help](https://twitter.com/moorehn/status/1089185034727313408). All contributions are welcome via complete, and documented, pull request.
-* Twitter has an API rate limit. If/when you hit the rate limit, the script will end abruptly with an error message. Since you can just restart the script manually every 15 minutes (= the timing that Twitter uses for rate limiting), no error handling or retrying was added.
