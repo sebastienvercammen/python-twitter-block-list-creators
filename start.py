@@ -23,7 +23,7 @@ lists = api.lists_memberships()
 for entry in lists:
     try:
         creator_screen_name = entry.user.screen_name
-        api.create_block(screen_name=creator_screen_name)
+        api.create_block(creator_screen_name)
         print('Blocked @{}, creator of "{}".'.format(creator_screen_name, entry.name))
     except Exception as e:
         # Return human readable error message on fail
